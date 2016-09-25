@@ -1,0 +1,17 @@
+language: cpp
+compiler: gcc
+sudo: require
+
+before_install:
+  - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
+  - sudo apt-get update -qq
+
+install: 
+  - sudo apt-get install -qq g++-5
+  - sudo apt-get install -qq valgrind
+
+script: 
+  - qmake
+  - make
+  - valgrind --leak-check=full -v --show-reachable=yes --log-file=memcheck.log ./travis_qmake_gcc_cpp98_memcheck
+  - cat memcheck.log
