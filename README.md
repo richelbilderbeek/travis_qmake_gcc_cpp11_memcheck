@@ -1,8 +1,8 @@
 # travis_qmake_gcc_cpp11_memcheck
 
-[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
-
-[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_memcheck.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_memcheck)
+Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
+---|---
+master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_memcheck.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_memcheck)
 
 This GitHub is part of [the Travis C++ Tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial).
 
