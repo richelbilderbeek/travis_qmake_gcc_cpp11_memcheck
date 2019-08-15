@@ -1,8 +1,10 @@
 language: cpp
+dist: bionic
 compiler: gcc
-dist: trusty
 
 install: 
+  - sudo apt update -qq
+  # valgrind
   - sudo apt-get install -qq valgrind
 
 script: 
