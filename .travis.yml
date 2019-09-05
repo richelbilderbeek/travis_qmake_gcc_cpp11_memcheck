@@ -1,8 +1,14 @@
 language: cpp
-compiler: gcc
 dist: bionic
+compiler: gcc
+<<<<<<< HEAD
+dist: bionic
+=======
+>>>>>>> develop
 
 install: 
+  - sudo apt update -qq
+  # valgrind
   - sudo apt-get install -qq valgrind
 
 script: 
